@@ -31,7 +31,7 @@ class TheAppBar extends StatelessWidget implements PreferredSizeWidget {
       height: _appBarHeight + topMargin,
       padding: EdgeInsets.only(top: topMargin),
       decoration: const BoxDecoration(
-        color: Colorz.white255,
+        color: Colorz.abidoGrisDark4,
         // border: Borderers.borderOnly(
         //   color: Colorz.white125,
         //   bottom: true,
@@ -48,7 +48,7 @@ class TheAppBar extends StatelessWidget implements PreferredSizeWidget {
               onTap: () => Routing.goTo(route: Routing.routeHome),
               height: _appBarHeight,
               width: _appBarHeight,
-              icon: Iconz.iconColored,
+              icon: Iconz.icon,
               iconSizeFactor: 0.7,
               splashColor: Colorz.nothing,
               margins: const EdgeInsets.symmetric(horizontal: 10),
@@ -91,7 +91,7 @@ class TheAppBar extends StatelessWidget implements PreferredSizeWidget {
                 child: SuperImage(
                   height: Scale.appBarHeight,
                   width: Scale.appBarHeight,
-                  pic: Iconz.palette,
+                  pic: Iconz.icon,
                   iconColor: Colorz.abidoGris,
                   loading: false,
                   scale: 0.6,
