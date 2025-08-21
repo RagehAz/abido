@@ -15,7 +15,7 @@ class TheLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor ?? Colorz.majorelleBlue,
+      backgroundColor: backgroundColor ?? Colorz.abidoGris,
       appBar: const TheAppBar(),
       body: child,
     );

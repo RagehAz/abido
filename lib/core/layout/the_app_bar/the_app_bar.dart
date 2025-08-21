@@ -61,9 +61,9 @@ class TheAppBar extends StatelessWidget implements PreferredSizeWidget {
 
             const SuperPopMenu(
               corners: BorderRadius.all(Radius.circular(15)),
-              borderColor: Colorz.majorelleBlueDark3,
+              borderColor: Colorz.abidoGrisDark3,
               // offset: const Offset(0, 0),
-              bubbleColor: Colorz.majorelleBlue,
+              bubbleColor: Colorz.abidoGris,
               enabled: true,
               popupChild: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -92,7 +92,7 @@ class TheAppBar extends StatelessWidget implements PreferredSizeWidget {
                   height: Scale.appBarHeight,
                   width: Scale.appBarHeight,
                   pic: Iconz.palette,
-                  iconColor: Colorz.majorelleBlue,
+                  iconColor: Colorz.abidoGris,
                   loading: false,
                   scale: 0.6,
                 ),

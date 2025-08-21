@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 
 abstract class Colorz {
   // --------------------
-  static const Color majorelleBlue        = Color.fromARGB(255, 93, 66, 242); // #5d42f2
-  static const Color majorelleBlueDark1   = Color.fromARGB(255, 79, 58, 216); // #4f3ad8
-  static const Color majorelleBlueDark2   = Color.fromARGB(255, 66, 47, 190); // #422fbe
-  static const Color majorelleBlueDark3   = Color.fromARGB(255, 53, 36, 164); // #3524a4
-  static const Color majorelleBlueDark4   = Color.fromARGB(255, 38, 24, 130); // #261882
-  static const Color majorelleBlueDark5   = Color.fromARGB(255, 23, 13, 88);  // #170d58
-  // --------------------
-  static const Color lightSeaGreen        = Color.fromARGB(255, 0, 184, 175); // #00b8af
-  static const Color lightSeaGreenDark1   = Color.fromARGB(255, 0, 157, 150); // #009d96
-  static const Color lightSeaGreenDark2   = Color.fromARGB(255, 0, 131, 125); // #00837d
-  static const Color lightSeaGreenDark3   = Color.fromARGB(255, 0, 105, 100); // #006964
-  static const Color lightSeaGreenDark4   = Color.fromARGB(255, 0, 79, 75);   // #004f4b
-  static const Color lightSeaGreenDark5   = Color.fromARGB(255, 0, 52, 50);   // #003432
-  // --------------------
+  static const Color abidoGris        = Color(0xFF47505F); // #47505f
+  static const Color abidoGrisDark1   = Color(0xFF3F4756); // #3f4756
+  static const Color abidoGrisDark2   = Color(0xFF373E4C); // #373e4c
+  static const Color abidoGrisDark3   = Color(0xFF2F3542); // #2f3542
+  static const Color abidoGrisDark4   = Color(0xFF272C38); // #272c38
+  static const Color abidoGrisDark5   = Color(0xFF1F232E); // #1f232e
+// --------------------
+  static const Color abidoOrange        = Color(0xFFDA682C); // #da682c
+  static const Color abidoOrangeDark1   = Color(0xFFC55E28); // #c55e28
+  static const Color abidoOrangeDark2   = Color(0xFFB05423); // #b05423
+  static const Color abidoOrangeDark3   = Color(0xFF9B4A1F); // #9b4a1f
+  static const Color abidoOrangeDark4   = Color(0xFF86401B); // #86401b
+  static const Color abidoOrangeDark5   = Color(0xFF713617); // #713617
+// --------------------
   static const Color blue        = Color.fromARGB(255, 0, 25, 247); // #0019f7
   static const Color blueDark1   = Color.fromARGB(255, 0, 21, 210); // #0015d2
   static const Color blueDark2   = Color.fromARGB(255, 0, 17, 175); // #0011af
